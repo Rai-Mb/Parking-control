@@ -1,12 +1,10 @@
 package com.api.parkingcontrol.models;
 
-import javax.persistence.*;
-
 import lombok.Data;
-
+import java.util.UUID;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 @Data
 @Entity
